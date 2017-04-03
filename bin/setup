@@ -6,7 +6,7 @@ source "${OPENSHIFT_NGINX_DIR}/bin/setup_util.sh"
 # Archive/LFS configuration
 declare -a ARCHIVE_SERVERS
 ARCHIVE_SERVERS=( "http://download-bcartridges.rhcloud.com/nginx" )
-LFS_ENDPOINT=https://github.com/boekkooi/openshift-cartridge-nginx.git/info/lfs
+LFS_ENDPOINT=https://github.com/zarkosusnjar/openshift-cartridge-nginx.git/info/lfs
 
 # Resolve version
 case "$1" in
